@@ -1,0 +1,4 @@
+baseURL = "https://www.itsmejuha.co/"
+languageCode = "en-us"
+title = "Juha Liikala | Front-End Engineer | Oulu, Finland"
+theme = "itsmejuhacov2"
