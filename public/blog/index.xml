@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Juha Liikala | Front-End Engineer | Oulu, Finland</title>
-    <link>https://www.itsmejuha.co/</link>
-    <description>Recent content on Juha Liikala | Front-End Engineer | Oulu, Finland</description>
+    <title>Blogs on Juha Liikala | Front-End Engineer | Oulu, Finland</title>
+    <link>https://www.itsmejuha.co/blog/</link>
+    <description>Recent content in Blogs on Juha Liikala | Front-End Engineer | Oulu, Finland</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 May 2018 14:29:32 +0300</lastBuildDate>
     
-	<atom:link href="https://www.itsmejuha.co/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.itsmejuha.co/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://www.itsmejuha.co/blog/welcome/</guid>
       <description>Welcome to the new version of itsmejuha.co</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://www.itsmejuha.co/about/</link>
-      <pubDate>Sun, 27 May 2018 14:28:19 +0300</pubDate>
-      
-      <guid>https://www.itsmejuha.co/about/</guid>
-      <description>This will be the about section :)</description>
     </item>
     
   </channel>
