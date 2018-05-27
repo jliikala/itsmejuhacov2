@@ -1,0 +1,13 @@
+<head>
+	<meta charset="utf-8">
+	{{ partial "metatitle.html" . }}
+	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{{ with .Params.hidden }}<meta name="robots" content="noindex">{{ end }}
+	<!-- Note to self: If blog post was published elsewhere first (Medium for example), define the canonical url in post Front matter. If this is originally published here, just use permalink -->
+  <link rel="canonical" href="{{ with .Site.Params.canonical }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
+  {{ if .RSSLink }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
+</head>

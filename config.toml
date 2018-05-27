@@ -2,3 +2,46 @@ baseURL = "https://www.itsmejuha.co/"
 languageCode = "en-us"
 title = "Juha Liikala | Front-End Engineer | Oulu, Finland"
 theme = "itsmejuhacov2"
+
+enableEmoji = true
+enableRobotsTXT = true
+disableKinds= ["taxonomy", "taxonomyTerm"]
+
+[permalinks]
+	fixed = ":title/"
+	archives  = ":slug/"
+
+[[menu.main]]
+    name = "Home"
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/about/"
+[[menu.main]]
+    name = "Blog"
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = " Updates"
+    identifier = "updates"
+    url = "/updates/"
+
+[params]
+	author = "Juha Liikala"
+	description = "Juha Liikala is a developer, designer and blogger who has been building websites and software for a living since 2001."
+	coverimage = "https://www.itsmejuha.co/images/juhaheader.jpg"
+	latestpostscount = 5
+	title = "Juha Liikala - Front-End Developer, Pixel Pusher & Globetrotter from Oulu, Finland."
+	email = "sayhello@itsmejuha.co"
+	twitterUrl ="https://twitter.com/juhaliikala/"
+	instagramUrl = "https://www.instagram.com/nomadcouch/"
+	linkedinUrl = "https://www.linkedin.com/in/juhaliikala"
+	producthuntUrl = "https://www.producthunt.com/@juhaliikala"
+	unsplashUrl = "https://unsplash.com/@juhaliikala"
+	mediumUrl = "https://medium.com/@juhaliikala"
+	facebookUrl = "https://www.facebook.com/juhaliikala"
+	avatar = "https://www.itsmejuha.co/images/avatar_100x100.jpg"
+	FBAuthor = "https://www.facebook.com/JuhaLiikala/"
+	newsletter = "http://eepurl.com/cxqFQr"
